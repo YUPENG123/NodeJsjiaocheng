@@ -1,0 +1,7 @@
+on: push
+
+jobs:
+  nodejs:
+    run-on: ubuntu-latest
+    steps:
+      - run: ls

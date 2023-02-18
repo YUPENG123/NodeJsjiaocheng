@@ -9,4 +9,4 @@ jobs:
       - run: node -v
       - run: echo $PATH
       - run: npm -v
-      - run: npm install express
+      - run: npm install express -g

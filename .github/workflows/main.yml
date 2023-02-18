@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: ls
-      - user: actions/checkout@v3
+      - uses: actions/checkout@v3
       - run: node -v
